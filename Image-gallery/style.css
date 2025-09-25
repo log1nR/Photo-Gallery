@@ -1,0 +1,53 @@
+/* style.css */
+
+/* reset browser stylesheet */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(86, 109, 149);
+}
+/* outside box */
+.outer{
+    height:1000px;
+    width:900px;
+    text-align: center;
+    margin: 20px 300px;
+    padding:50px;
+    background-color:white;
+    border-radius:20px;
+}
+.title{
+    font-size: 32px;
+    font-variant: small-caps;
+}
+/* Text */
+.content{
+    
+    gap:30px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    list-style-type: none;
+    color:white
+}
+/* Text box and gradient */
+.para{
+    padding: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    background: linear-gradient(to right, rgb(227, 107, 32), rgb(234, 211, 170));
+    border-radius: 10px;
+}
+/* Apple images */
+img{
+    border-radius: 10px;
+    box-shadow: 2px 1px 5px  black;
+    margin: 10px 10px;
+    width:225px;
+    height:200px;
+}
